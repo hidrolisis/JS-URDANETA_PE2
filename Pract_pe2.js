@@ -62,6 +62,7 @@ do {
     var resultado = precioMenu(precio1, precio2)
 
     alert("Su menu es " + opcion1 + " con " + opcion2 + ", " + "Y el total de su cuenta es: " + resultado);
-    alert("Gracias por visitarnos");
+    alert("Gracias por visitarnos ");
+    opcion2 = prompt("Pulse ENTER para salir")
 
 } while (opcion2 != 0);
