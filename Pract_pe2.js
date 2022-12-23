@@ -65,16 +65,3 @@ do {
     alert("Gracias por visitarnos");
 
 } while (opcion2 != 0);
-
-// \n 4 - Arroz \n 5 - Fideos")
-// function calcularTotal(a,b) {
-//     // Recorremos el array del carrito 
-//     return carrito.reduce((total, item) => {
-//         // De cada elemento obtenemos su precio
-//         const miItem = baseDeDatos.filter((itemBaseDatos) => {
-//             return itemBaseDatos.id === parseInt(item);
-//         });
-//         // Los sumamos al total
-//         return total + miItem[0].precio;
-//     }, 0).toFixed(2);
-// }
